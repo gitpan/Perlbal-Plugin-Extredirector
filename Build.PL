@@ -19,7 +19,7 @@ my %module_build_args = (
     'Antti Vähäkotamäki <antti@dicole.com>'
   ],
   'dist_name' => 'Perlbal-Plugin-Extredirector',
-  'dist_version' => 'v0.0.1',
+  'dist_version' => 'v0.0.2',
   'license' => 'perl',
   'module_name' => 'Perlbal::Plugin::Extredirector',
   'recommends' => {},

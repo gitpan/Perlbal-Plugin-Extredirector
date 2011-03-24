@@ -1,6 +1,6 @@
 package Perlbal::Plugin::Extredirector;
 BEGIN {
-  $Perlbal::Plugin::Extredirector::VERSION = 'v0.0.1'; # TRIAL
+  $Perlbal::Plugin::Extredirector::VERSION = 'v0.0.2';
 }
 # ABSTRACT: Use Squid rules in Perlbal.
 
@@ -8,6 +8,7 @@ use strict;
 use warnings;
 no  warnings qw(deprecated);
 
+use Perlbal;
 use Socket;
 use IPC::Open2;
 use Net::Netmask;
@@ -375,7 +376,7 @@ Perlbal::Plugin::Extredirector - Use Squid rules in Perlbal.
 
 =head1 VERSION
 
-version v0.0.1
+version v0.0.2
 
 =encoding utf8
 
