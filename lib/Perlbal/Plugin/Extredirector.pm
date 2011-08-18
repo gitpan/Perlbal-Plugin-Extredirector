@@ -3,7 +3,7 @@ BEGIN {
   $Perlbal::Plugin::Extredirector::AUTHORITY = 'cpan:WOLVERIAN';
 }
 {
-  $Perlbal::Plugin::Extredirector::VERSION = 'v0.0.3'; # TRIAL
+  $Perlbal::Plugin::Extredirector::VERSION = 'v0.0.4';
 }
 # ABSTRACT: Use Squid rules in Perlbal.
 
@@ -379,7 +379,7 @@ Perlbal::Plugin::Extredirector - Use Squid rules in Perlbal.
 
 =head1 VERSION
 
-version v0.0.3
+version v0.0.4
 
 =encoding utf8
 

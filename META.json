@@ -42,7 +42,7 @@
          }
       }
    },
-   "release_status" : "testing",
+   "release_status" : "stable",
    "resources" : {
       "bugtracker" : {
          "mailto" : "bug-perlbal-plugin-extredirector at rt.cpan.org",
@@ -55,7 +55,7 @@
          "web" : "https://github.com/dicole/Perlbal-Plugin-Extredirector"
       }
    },
-   "version" : "v0.0.3",
+   "version" : "v0.0.4",
    "x_authority" : "cpan:WOLVERIAN"
 }
 

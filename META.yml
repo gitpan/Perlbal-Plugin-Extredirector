@@ -27,5 +27,5 @@ resources:
   bugtracker: http://rt.cpan.org/Public/Dist/Display.html?Name=Perlbal-Plugin-Extredirector
   homepage: https://github.com/dicole/Perlbal-Plugin-Extredirector
   repository: https://github.com/dicole/Perlbal-Plugin-Extredirector.git
-version: v0.0.3
+version: v0.0.4
 x_authority: cpan:WOLVERIAN
