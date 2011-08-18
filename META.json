@@ -5,7 +5,7 @@
       "Antti V\u00c3\u00a4h\u00c3\u00a4kotam\u00c3\u00a4ki <antti@dicole.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 4.200001, CPAN::Meta::Converter version 2.101670",
+   "generated_by" : "Dist::Zilla version 4.200019, CPAN::Meta::Converter version 2.110440",
    "license" : [
       "perl_5"
    ],
@@ -31,7 +31,9 @@
             "Net::Netmask" : 0,
             "Perlbal" : 0,
             "Socket" : 0,
-            "perl" : "5.006"
+            "perl" : "5.006",
+            "strict" : 0,
+            "warnings" : 0
          }
       },
       "test" : {
@@ -40,19 +42,20 @@
          }
       }
    },
-   "release_status" : "stable",
+   "release_status" : "testing",
    "resources" : {
       "bugtracker" : {
          "mailto" : "bug-perlbal-plugin-extredirector at rt.cpan.org",
          "web" : "http://rt.cpan.org/Public/Dist/Display.html?Name=Perlbal-Plugin-Extredirector"
       },
-      "homepage" : "http://github.com/dicole/Perlbal-Plugin-Extredirector/tree",
+      "homepage" : "https://github.com/dicole/Perlbal-Plugin-Extredirector",
       "repository" : {
          "type" : "git",
-         "url" : "git://github.com/dicole/Perlbal-Plugin-Extredirector.git",
-         "web" : "http://github.com/dicole/Perlbal-Plugin-Extredirector/tree"
+         "url" : "https://github.com/dicole/Perlbal-Plugin-Extredirector.git",
+         "web" : "https://github.com/dicole/Perlbal-Plugin-Extredirector"
       }
    },
-   "version" : "v0.0.2"
+   "version" : "v0.0.3",
+   "x_authority" : "cpan:WOLVERIAN"
 }
 

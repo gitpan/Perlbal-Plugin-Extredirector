@@ -1,6 +1,9 @@
 package Perlbal::Plugin::Extredirector;
 BEGIN {
-  $Perlbal::Plugin::Extredirector::VERSION = 'v0.0.2';
+  $Perlbal::Plugin::Extredirector::AUTHORITY = 'cpan:WOLVERIAN';
+}
+{
+  $Perlbal::Plugin::Extredirector::VERSION = 'v0.0.3'; # TRIAL
 }
 # ABSTRACT: Use Squid rules in Perlbal.
 
@@ -376,14 +379,23 @@ Perlbal::Plugin::Extredirector - Use Squid rules in Perlbal.
 
 =head1 VERSION
 
-version v0.0.2
+version v0.0.3
 
 =encoding utf8
 
 =head1 AUTHORS
 
-  Ilmari Vacklin <ilmari@dicole.com>
-  Antti Vähäkotamäki <antti@dicole.com>
+=over 4
+
+=item *
+
+Ilmari Vacklin <ilmari@dicole.com>
+
+=item *
+
+Antti Vähäkotamäki <antti@dicole.com>
+
+=back
 
 =head1 COPYRIGHT AND LICENSE
 
